@@ -50,14 +50,21 @@ function playRound(playerSelection, computerSelection){
 }
 
 
-
-        function game(playerSelection) {
+let playgame = confirm("shall we play a game of rock paper scissors")
+if(playgame){
+    //play
+    function game(playerSelection) {
         playerSelection = prompt('choose rock, paper, or scissors')
      let computerSelection = computerPlay();
              alert(computerSelection)
              alert(playRound(playerSelection, computerSelection))
 
      }
+}
+else{
+   alert("Ok maybe next time") 
+}
+        
 
 for (let i = 0; i < 5; i++) {
     game()
