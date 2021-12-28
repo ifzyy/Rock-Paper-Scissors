@@ -70,6 +70,7 @@ for (let i = 0; i < 5; i++) {
     game()
     
 }
+let playagain=alert("Reload the page if you'd like to play again")
    
 
 
